@@ -1,4 +1,4 @@
-import { Storage, StorageInfo } from "../../storage/src/types";
+import { Storage } from "../../storage/src/types";
 import * as fs_orig from "fs";
 import { promisify } from "util";
 
