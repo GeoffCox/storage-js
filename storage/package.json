@@ -1,14 +1,37 @@
 {
-  "name": "storage",
+  "name": "@geoffcox/storage-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A practical abstraction for storage layers in applications and servers",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "files": [
+    "build/"
+  ],
   "scripts": {
-    "build": "tsc"
+    "build": "rollup -c"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Geoff Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeoffCox/storage-js/issues"
+  },
+  "homepage": "https://github.com/GeoffCox/storage-js/",
+  "keywords": [
+    "storage",
+    "file",
+    "files",
+    "abstraction",
+    "database",
+    "web storage",
+    "store"
+  ],
   "devDependencies": {
+    "rollup": "^2.35.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.29.0",
     "typescript": "^4.1.3"
   }
 }

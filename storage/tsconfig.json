@@ -1,17 +1,28 @@
 {
     "compilerOptions": {
-      "emitDecoratorMetadata": true,
+      "allowJs": false,
+      "baseUrl": ".",
+      "declaration": true,
       "experimentalDecorators": true,
-      "module": "commonjs",
+      "emitDecoratorMetadata": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
       "moduleResolution": "node",
-      "outDir": "./dist/",
+      "outDir": "build",
       "noFallthroughCasesInSwitch": true,
       "noImplicitReturns": true,
       "noUnusedLocals": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
       "noUnusedParameters": true,
+      "paths": {
+        "src/*": ["src/*"]
+      },
+      "strictNullChecks": true,
       "sourceMap": true,
       "strict": true,
-      "target": "es6"
+      "target": "esnext"
     },
-    "include": ["./src/**/*"]
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
   }
