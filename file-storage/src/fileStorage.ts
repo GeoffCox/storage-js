@@ -1,4 +1,4 @@
-import { Storage } from '../../storage/dist';
+import { Storage } from '../../storage/src';
 import * as fs_orig from 'fs';
 import { promisify } from 'util';
 

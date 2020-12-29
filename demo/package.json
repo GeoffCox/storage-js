@@ -6,7 +6,8 @@
   "scripts": {
     "build:dev": "webpack --config webpack.config.js --mode development",
     "build:prod": "webpack --config webpack.config.js --mode production",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "start:dev": "webpack --config webpack.config.js --mode development && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
