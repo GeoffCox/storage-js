@@ -68,5 +68,7 @@ module.exports = {
       "fs": false,
       "util": false
     }
-  }
+  },
+
+  target: "es2020"
 };

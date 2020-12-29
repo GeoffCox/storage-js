@@ -65,10 +65,10 @@ const createFileStorage = () => {
         }
     };
     const load = async (path) => {
-        return await fs.readFile(path, "utf8");
+        return await fs.readFile(path, 'utf8');
     };
     const save = async (path, item) => {
-        await fs.writeFile(path, item, "utf8");
+        await fs.writeFile(path, item, 'utf8');
     };
     const deleteItem = async (path) => {
         await fs.rm(path);

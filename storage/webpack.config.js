@@ -64,5 +64,7 @@ module.exports = {
   // Tells webpack what file extensions it should look at.
   resolve: {
     extensions: [".ts", ".js", ".json"]
-  }
+  },
+
+  target: "es2020"
 };

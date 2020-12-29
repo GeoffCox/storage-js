@@ -2,7 +2,11 @@
   "name": "@geoffcox/file-storage-js",
   "version": "1.0.0",
   "description": "A node file storage implementation built on @geoffcox/storage-js",
-  "main": "src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build:dev": "webpack --config webpack.config.js --mode development",
     "build:prod": "webpack --config webpack.config.js --mode production"

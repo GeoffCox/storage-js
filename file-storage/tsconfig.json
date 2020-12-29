@@ -3,17 +3,17 @@
     "allowJs": false,
     "baseUrl": ".",
     "declaration": true,
-    "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
+    "module": "es2020",
     "moduleResolution": "node",
-    "outDir": "build",
+    "outDir": "dist",
     "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
     "noImplicitAny": true,
+    "noImplicitReturns": true,
     "noImplicitThis": true,
+    "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
       "src/*": ["src/*"]
@@ -21,7 +21,7 @@
     "strictNullChecks": true,
     "sourceMap": true,
     "strict": true,
-    "target": "esnext"
+    "target": "es2020"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
